@@ -9,6 +9,7 @@ export default function TodoList() {
 
   // quando clica no button ele chama essa função que adiciona um item na lista <li></li>
   const adicionar = () => {
+    // isso aqui não é necessário
     const newTodo = `tarefa ${todos.length + 1}`;
     setTodos([...todos, newTodo]);
   };
